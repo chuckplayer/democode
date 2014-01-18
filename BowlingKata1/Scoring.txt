@@ -14,6 +14,7 @@ Create a program, which, given a valid sequence of rolls for one line of America
    calculate the score of the final frame.
 7. The game score is the total of all frame scores.
 
+
 Suggested Test Cases
 
 (When scoring "X" indicates a strike, "/" indicates a spare, "-" indicates a miss)
