@@ -15,14 +15,6 @@ namespace BowlingKata1
     public interface IFrame
     {
         /// <summary>
-        /// Calculates the score for the frame.
-        /// </summary>
-        /// <returns> 
-        /// Returns the calculated score for a given frame.<see cref="int"/>
-        /// </returns>
-        int CalculateFrameScore();
-
-        /// <summary>
         /// Takes a turn.
         /// </summary>
         /// <param name="frame">
