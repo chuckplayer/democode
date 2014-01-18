@@ -15,14 +15,11 @@ namespace BowlingKata1
     public interface IFrame
     {
         /// <summary>
-        /// Takes a turn.
+        /// Records the result of a try, or throw.
         /// </summary>
-        /// <param name="frame">
-        /// The frame that contains the throw.
+        /// <param name="result">
+        /// The number of pins knocked down in a single try.
         /// </param>
-        /// <returns>
-        /// Returns the result of the throw<see cref="int"/>.
-        /// </returns>
-        int TakeTurn(IFrame frame);
+        void RecordATry(int result);
     }
 }

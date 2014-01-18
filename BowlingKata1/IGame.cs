@@ -37,5 +37,13 @@ namespace BowlingKata1
         /// The calculated score for the game. <see cref="int"/>.
         /// </returns>
         int CalculateGameScore(List<IFrame> frames);
+
+        /// <summary>
+        /// Sets up frames for a new game.
+        /// </summary>
+        /// <returns>
+        /// Returns a list of IFrames <see cref="IFrame"/>.
+        /// </returns>
+        List<IFrame> SetupNewGame();
     }
 }
