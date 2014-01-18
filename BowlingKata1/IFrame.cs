@@ -31,6 +31,6 @@ namespace BowlingKata1
         /// <returns>
         /// Returns the result of the throw<see cref="int"/>.
         /// </returns>
-        int Throw(IFrame frame);
+        int TakeTurn(IFrame frame);
     }
 }
